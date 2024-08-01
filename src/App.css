@@ -1,38 +1,43 @@
-.App {
+.app {
   text-align: center;
+  width: 200px;
+  padding: 40px;
+  border-radius: 20px;
+  background: #eaa634;
+  color: white;
+
+  /* code di bawah ini akan membuat div berada di tengah-tengah */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__title {
+  font-family: "Coolvetica";
+  /* text-decoration: underline; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__button {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  font-family: "Coolvetica";
+  border-radius: 7px;
+  border-color: whitesmoke;
+  padding: 5px 10px 5px 10px;
+  background: #eaa635;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+hr {
+  width: 30%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__content {
+  margin-top: 15px;
+  font-family: "Coolvetica";
+  font-weight: lighter;
 }
